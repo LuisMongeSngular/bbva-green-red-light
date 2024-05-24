@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/green-red-light-game.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "GreenRedLightGame",
+          "members": [
+            {
+              "kind": "field",
+              "name": "header",
+              "type": {
+                "text": "string"
+              },
+              "default": "'My app'",
+              "privacy": "public",
+              "attribute": "header"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "header",
+              "fieldName": "header"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "green-red-light-game",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "green-red-light-game",
+          "declaration": {
+            "name": "GreenRedLightGame",
+            "module": "src/green-red-light-game.js"
+          }
+        }
+      ]
+    }
+  ]
+}
