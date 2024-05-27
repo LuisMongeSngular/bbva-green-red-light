@@ -23,6 +23,5 @@
           "vite/client"
       ]
   },
-  "include": ["OLD_src/**/*.ts", "router.d.ts"],
   "exclude": ["node_modules"]
 }
